@@ -1,0 +1,31 @@
+COMANDOS DO DOCKER
+
+docker ps
+    Exibe todos os containers que estão rodando
+
+docker ps -a 
+    Exibe todos os containers, inclusive os que não estão rodando 
+
+docker rm < id do container >
+    remove o container
+
+docker start < id do container >
+    inicia o container 
+
+docker stop < id do container >
+    para o container 
+
+docker-compose up 
+    gera o compose baseado em docker-compose.yml 
+
+docker-compose up -d 
+    roda o compose em background
+
+docker-compose stop
+    para de rodar o compose 
+
+docker-compose start
+    rodar o compose 
+
+docker-compose down
+    remove o compose criado

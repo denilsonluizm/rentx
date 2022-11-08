@@ -1,0 +1,11 @@
+cria a migration
+    yarn typeorm migration:create src/shared/infra/typeorm/migrations/ < Nome da migration >
+
+roda a migration gerando as tabelas
+    yarn typeorm migration:run
+
+reverte a migration apagando as tabelas
+    yarn typeorm migration:revert
+
+"typeorm": "ts-node-dev -r tsconfig-paths/register ./node_modules/typeorm/cli.js",
+"typeorm": "ts-node-dev -r tsconfig-paths/register ./node_modules/typeorm/cli.js -d src/shared/infra/typeorm/index.ts",

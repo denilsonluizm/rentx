@@ -29,3 +29,5 @@ docker-compose start
 
 docker-compose down
     remove o compose criado
+
+    teste
